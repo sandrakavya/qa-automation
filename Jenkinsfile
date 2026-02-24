@@ -1,7 +1,3 @@
-
-
-
-
 pipeline {
     agent any
 
@@ -27,6 +23,11 @@ pipeline {
         }
     }
 }
+Commit & push:
+git add Jenkinsfile
+git commit -m "Add Jenkins pipeline"
+git push
+
 
 
 
